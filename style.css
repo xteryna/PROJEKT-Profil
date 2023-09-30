@@ -16,4 +16,78 @@ html { box-sizing: border-box; }
 
 body {
 	background-color: #bdc3c7;
+	font-family: 'Montserrat', sans-serif;
+	color: #bdc3c7;
+}
+
+h1 {
+	font-family: 'Source Sans 3', sans-serif;
+	color: white;
+}
+
+.profil {
+	width: 300px;
+	background-color: #31363b;
+	margin: 20px;
+	box-shadow: 5px 5px 10px gray;
+	
+}
+.hlavicka {
+	position: relative;
+}
+
+.logo{
+	background-color: #b92e81;
+	border-radius: 50%;
+	position: absolute;
+	right: 30px;
+	bottom: -20px;
+}
+
+.foto {
+	width: 100%;
+}
+
+.obsah {
+	padding: 20px;
+}
+
+a {
+	text-decoration: none;
+	padding: 10px 0;
+	text-transform: uppercase;
+	text-align:center;
+	display: block;
+	color: #bdc3c7;
+}
+
+.odkazy {
+	padding: 0;
+	margin: 0;
+}
+
+.odkazy li{
+	display: inline-block;
+	border: 1px solid #3f464d;
+	}
+
+
+.portfolio {
+	width:  100%;
+}
+
+.twitter, .facebook {
+	width: 50%;
+}
+
+.twitter:hover{
+	background-color: #1da1f2;
+}
+
+.portfolio:hover {
+	background-color: #e74c3c;
+}
+ 
+.facebook:hover{
+	background-color: #3b5998;
 }
